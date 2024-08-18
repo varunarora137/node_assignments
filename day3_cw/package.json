@@ -1,0 +1,15 @@
+{
+  "name": "binary_search_package_cw",
+  "version": "1.0.0",
+  "description": "Gives binary search function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Binary",
+    "Search"
+  ],
+  "author": "Varun Arora",
+  "license": "ISC"
+}
