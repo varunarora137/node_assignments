@@ -10,6 +10,157 @@ const allData = {};
 
 const startingURL = "https://www.iplt20.com/stats/";
 
+async function oragneCapEvaluate(page) {
+  await page.waitForSelector("#battingTAB");
+
+  // Optional: additional wait time for dynamic content
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  await delay(5000);
+
+  // Extract player data
+  const playersData = await page.evaluate(() => {
+    const rows = document.querySelectorAll("#battingTAB > table > tbody > tr");
+    return Array.from(rows)
+      .map((row) => {
+        const columns = row.querySelectorAll("td");
+        return {
+          Player: columns[1]?.innerText.trim().split("\n")[0],
+          Runs: columns[2]?.innerText.trim(),
+        };
+      })
+      .slice(1, 11);
+  });
+  return playersData;
+}
+
+async function mostFourEvaluate(page) {
+  await page.click(".customSelecBox.statsTypeFilter");
+
+  statesFilterSelector = await page.$(".cSBList.active");
+
+  const mostFoursFilterOption = await statesFilterSelector.$(
+    ".cSBListItems.batters.selected.ng-binding.ng-scope:nth-child(3)"
+  );
+  mostFoursFilterOption.click();
+
+  await page.waitForSelector("#battingTAB");
+
+  // Optional: additional wait time for dynamic content
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  await delay(5000);
+
+  // Extract player data
+  const playersData = await page.evaluate(() => {
+    const rows = document.querySelectorAll("#battingTAB > table > tbody > tr");
+    return Array.from(rows)
+      .map((row) => {
+        const columns = row.querySelectorAll("td");
+        return {
+          Player: columns[1]?.innerText.trim().split("\n")[0],
+          Fours: columns[2]?.innerText.trim(),
+        };
+      })
+      .slice(1, 11);
+  });
+  return playersData;
+}
+
+async function mostSixesEvaluate(page) {
+  await page.click(".customSelecBox.statsTypeFilter");
+
+  statesFilterSelector = await page.$(".cSBList.active");
+
+  const mostSixesFilterOption = await statesFilterSelector.$(
+    ".cSBListItems.batters.selected.ng-binding.ng-scope:nth-child(5)"
+  );
+  mostSixesFilterOption.click();
+
+  await page.waitForSelector("#battingTAB");
+
+  // Optional: additional wait time for dynamic content
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  await delay(5000);
+
+  // Extract player data
+  const playersData = await page.evaluate(() => {
+    const rows = document.querySelectorAll("#battingTAB > table > tbody > tr");
+    return Array.from(rows)
+      .map((row) => {
+        const columns = row.querySelectorAll("td");
+        return {
+          Player: columns[1]?.innerText.trim().split("\n")[0],
+          Sixes: columns[2]?.innerText.trim(),
+        };
+      })
+      .slice(1, 11);
+  });
+  return playersData;
+}
+
+async function mostHundredsEvaluate(page) {
+  await page.click(".customSelecBox.statsTypeFilter");
+
+  statesFilterSelector = await page.$(".cSBList.active");
+
+  const mostHundredsFilterOption = await statesFilterSelector.$(
+    ".cSBListItems.batters.selected.ng-binding.ng-scope:nth-child(8)"
+  );
+  mostHundredsFilterOption.click();
+
+  await page.waitForSelector("#battingTAB");
+
+  // Optional: additional wait time for dynamic content
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  await delay(5000);
+
+  // Extract player data
+  const playersData = await page.evaluate(() => {
+    const rows = document.querySelectorAll("#battingTAB > table > tbody > tr");
+    return Array.from(rows)
+      .map((row) => {
+        const columns = row.querySelectorAll("td");
+        return {
+          Player: columns[1]?.innerText.trim().split("\n")[0],
+          Hundreds: columns[2]?.innerText.trim(),
+        };
+      })
+      .slice(1, 11);
+  });
+  return playersData;
+}
+
+async function mostFiftiesEvaluate(page) {
+  await page.click(".customSelecBox.statsTypeFilter");
+
+  statesFilterSelector = await page.$(".cSBList.active");
+
+  const mostFiftiesFilterOption = await statesFilterSelector.$(
+    ".cSBListItems.batters.selected.ng-binding.ng-scope:nth-child(7)"
+  );
+  mostFiftiesFilterOption.click();
+
+  await page.waitForSelector("#battingTAB");
+
+  // Optional: additional wait time for dynamic content
+  const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+  await delay(5000);
+
+  // Extract player data
+  const playersData = await page.evaluate(() => {
+    const rows = document.querySelectorAll("#battingTAB > table > tbody > tr");
+    return Array.from(rows)
+      .map((row) => {
+        const columns = row.querySelectorAll("td");
+        return {
+          Player: columns[1]?.innerText.trim().split("\n")[0],
+          Fifties: columns[2]?.innerText.trim(),
+        };
+      })
+      .slice(1, 11);
+  });
+  return playersData;
+}
+
 async function scrapeIPLData() {
   const browser = await puppeteer.launch();
 
@@ -34,34 +185,24 @@ async function scrapeIPLData() {
     }
 
     // Wait for the page to load and necessary elements to appear
-    await page.waitForSelector("#battingTAB");
+    const orangeCapData = await oragneCapEvaluate(page);
 
-    // Optional: additional wait time for dynamic content
-    const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-    await delay(5000);
+    const mostFour = await mostFourEvaluate(page);
 
-    // Extract player data
-    const playersData = await page.evaluate(() => {
-      const rows = document.querySelectorAll(
-        "#battingTAB > table > tbody > tr"
-      );
-      return Array.from(rows)
-        .map((row) => {
-          const columns = row.querySelectorAll("td");
-          return {
-            POS: columns[0]?.innerText.trim(),
-            Player: columns[1]?.innerText.trim().split("\n")[0],
-            Runs: columns[2]?.innerText.trim(),
-            Sixes: columns[13]?.innerText.trim(),
-            Fours: columns[12]?.innerText.trim(),
-            Fifties: columns[11]?.innerText.trim(),
-            Hundreds: columns[10]?.innerText.trim(),
-          };
-        })
-        .slice(1, 11);
-    });
+    const mostSixes = await mostSixesEvaluate(page);
 
-    allData[season] = { players: playersData };
+    const mostHundreds = await mostHundredsEvaluate(page);
+
+    const mostFifties = await mostFiftiesEvaluate(page);
+
+    const data = {};
+    data["Most Fours"] = mostFour;
+    data["Most Sixes"] = mostSixes;
+    data["Most Hundreds"] = mostHundreds;
+    data["Most Fifties"] = mostFifties;
+    data["Orange Cap"] = orangeCapData;
+
+    allData[season] = data;
     await page.close();
   }
   fs.writeFileSync("ipl_data.json", JSON.stringify(allData, null, 2));
@@ -69,13 +210,3 @@ async function scrapeIPLData() {
 }
 
 scrapeIPLData();
-// (async () => {
-//   for (let i = currYear; i > currYear - 5; i--) {
-//     let url = `https://www.iplt20.com/stats/${i}`;
-//     const data = await scrapeIPLData(url);
-//     console.log(`Data for ${i}:`, data);
-//     allData[i] = { players: data };
-//   }
-
-//   fs.writeFileSync("ipl_data.json", JSON.stringify(allData, null, 2));
-// })();

@@ -1,0 +1,64 @@
+{
+  "SEASON 2024": {
+    "topTenOrangeCapPlayers": [
+      { "playerName": "Virat Kohli", "playerScore": "741" },
+      { "playerName": "Ruturaj Gaikwad", "playerScore": "583" },
+      { "playerName": "Riyan Parag", "playerScore": "573" },
+      { "playerName": "Travis Head", "playerScore": "567" },
+      { "playerName": "Sanju Samson", "playerScore": "531" },
+      { "playerName": "Sai Sudharsan", "playerScore": "527" },
+      { "playerName": "K L Rahul", "playerScore": "520" },
+      { "playerName": "Nicholas Pooran", "playerScore": "499" },
+      { "playerName": "Sunil Narine", "playerScore": "488" },
+      { "playerName": "Abhishek Sharma", "playerScore": "484" }
+    ],
+    "topTenMostFoursPlayers": [
+      { "playerName": "Phil Salt", "playerScore": "14" },
+      { "playerName": "Marcus Stoinis", "playerScore": "13" },
+      { "playerName": "Sunil Narine", "playerScore": "13" },
+      { "playerName": "Suryakumar Yadav", "playerScore": "12" },
+      { "playerName": "Virat Kohli", "playerScore": "12" },
+      { "playerName": "Ruturaj Gaikwad", "playerScore": "12" },
+      { "playerName": "Jake Fraser - McGurk", "playerScore": "11" },
+      { "playerName": "Travis Head", "playerScore": "11" },
+      { "playerName": "Virat Kohli", "playerScore": "11" },
+      { "playerName": "Rohit Sharma", "playerScore": "11" }
+    ],
+    "topTenMostSixsPlayers": [
+      { "playerName": "Phil Salt", "playerScore": "14" },
+      { "playerName": "Marcus Stoinis", "playerScore": "13" },
+      { "playerName": "Sunil Narine", "playerScore": "13" },
+      { "playerName": "Suryakumar Yadav", "playerScore": "12" },
+      { "playerName": "Virat Kohli", "playerScore": "12" },
+      { "playerName": "Ruturaj Gaikwad", "playerScore": "12" },
+      { "playerName": "Jake Fraser - McGurk", "playerScore": "11" },
+      { "playerName": "Travis Head", "playerScore": "11" },
+      { "playerName": "Virat Kohli", "playerScore": "11" },
+      { "playerName": "Rohit Sharma", "playerScore": "11" }
+    ],
+    "topTenMostFiftiesPlayers": [
+      { "playerName": "Rajat Patidar", "playerScore": "5" },
+      { "playerName": "Sanju Samson", "playerScore": "5" },
+      { "playerName": "Virat Kohli", "playerScore": "5" },
+      { "playerName": "Jake Fraser - McGurk", "playerScore": "4" },
+      { "playerName": "Phil Salt", "playerScore": "4" },
+      { "playerName": "Venkatesh Iyer", "playerScore": "4" },
+      { "playerName": "Ruturaj Gaikwad", "playerScore": "4" },
+      { "playerName": "Riyan Parag", "playerScore": "4" },
+      { "playerName": "K L Rahul", "playerScore": "4" },
+      { "playerName": "Faf Du Plessis", "playerScore": "4" }
+    ],
+    "topTenMostCenturiesPlayers": [
+      { "playerName": "Jos Buttler", "playerScore": "2" },
+      { "playerName": "Will Jacks", "playerScore": "1" },
+      { "playerName": "Suryakumar Yadav", "playerScore": "1" },
+      { "playerName": "Jonny Bairstow", "playerScore": "1" },
+      { "playerName": "Sai Sudharsan", "playerScore": "1" },
+      { "playerName": "Shubman Gill", "playerScore": "1" },
+      { "playerName": "Ruturaj Gaikwad", "playerScore": "1" },
+      { "playerName": "Sunil Narine", "playerScore": "1" },
+      { "playerName": "Rohit Sharma", "playerScore": "1" },
+      { "playerName": "Marcus Stoinis", "playerScore": "1" }
+    ]
+  }
+}
