@@ -1,0 +1,472 @@
+{
+  "2020": {
+    "players": [
+      {
+        "POS": "1",
+        "Player": "KL Rahul",
+        "Runs": "670",
+        "Sixes": "23",
+        "Fours": "58",
+        "Fifties": "5",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "2",
+        "Player": "Shikhar Dhawan",
+        "Runs": "618",
+        "Sixes": "12",
+        "Fours": "67",
+        "Fifties": "4",
+        "Hundreds": "2"
+      },
+      {
+        "POS": "3",
+        "Player": "David Warner",
+        "Runs": "548",
+        "Sixes": "14",
+        "Fours": "52",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "4",
+        "Player": "Shreyas Iyer",
+        "Runs": "519",
+        "Sixes": "16",
+        "Fours": "40",
+        "Fifties": "3",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "5",
+        "Player": "Ishan Kishan",
+        "Runs": "516",
+        "Sixes": "30",
+        "Fours": "36",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "6",
+        "Player": "Quinton de Kock",
+        "Runs": "503",
+        "Sixes": "22",
+        "Fours": "46",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "7",
+        "Player": "Suryakumar Yadav",
+        "Runs": "480",
+        "Sixes": "11",
+        "Fours": "61",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "8",
+        "Player": "Devdutt Padikkal",
+        "Runs": "473",
+        "Sixes": "8",
+        "Fours": "51",
+        "Fifties": "5",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "9",
+        "Player": "Virat Kohli",
+        "Runs": "466",
+        "Sixes": "11",
+        "Fours": "23",
+        "Fifties": "3",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "10",
+        "Player": "AB de Villiers",
+        "Runs": "454",
+        "Sixes": "23",
+        "Fours": "33",
+        "Fifties": "5",
+        "Hundreds": "0"
+      }
+    ]
+  },
+  "2021": {
+    "players": [
+      {
+        "POS": "1",
+        "Player": "Ruturaj Gaikwad",
+        "Runs": "635",
+        "Sixes": "23",
+        "Fours": "64",
+        "Fifties": "4",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "2",
+        "Player": "Faf du Plessis",
+        "Runs": "633",
+        "Sixes": "23",
+        "Fours": "60",
+        "Fifties": "6",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "3",
+        "Player": "KL Rahul",
+        "Runs": "626",
+        "Sixes": "30",
+        "Fours": "48",
+        "Fifties": "6",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "4",
+        "Player": "Shikhar Dhawan",
+        "Runs": "587",
+        "Sixes": "16",
+        "Fours": "63",
+        "Fifties": "3",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "5",
+        "Player": "Glenn Maxwell",
+        "Runs": "513",
+        "Sixes": "21",
+        "Fours": "48",
+        "Fifties": "6",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "6",
+        "Player": "Sanju Samson",
+        "Runs": "484",
+        "Sixes": "17",
+        "Fours": "45",
+        "Fifties": "2",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "7",
+        "Player": "Prithvi Shaw",
+        "Runs": "479",
+        "Sixes": "18",
+        "Fours": "56",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "8",
+        "Player": "Shubman Gill",
+        "Runs": "478",
+        "Sixes": "12",
+        "Fours": "50",
+        "Fifties": "3",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "9",
+        "Player": "Mayank Agarwal",
+        "Runs": "441",
+        "Sixes": "18",
+        "Fours": "42",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "10",
+        "Player": "Rishabh Pant",
+        "Runs": "419",
+        "Sixes": "10",
+        "Fours": "42",
+        "Fifties": "3",
+        "Hundreds": "0"
+      }
+    ]
+  },
+  "2022": {
+    "players": [
+      {
+        "POS": "1",
+        "Player": "Jos Buttler",
+        "Runs": "863",
+        "Sixes": "45",
+        "Fours": "83",
+        "Fifties": "4",
+        "Hundreds": "4"
+      },
+      {
+        "POS": "2",
+        "Player": "K L Rahul",
+        "Runs": "616",
+        "Sixes": "30",
+        "Fours": "45",
+        "Fifties": "4",
+        "Hundreds": "2"
+      },
+      {
+        "POS": "3",
+        "Player": "Quinton De Kock",
+        "Runs": "508",
+        "Sixes": "23",
+        "Fours": "47",
+        "Fifties": "3",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "4",
+        "Player": "Hardik Pandya",
+        "Runs": "487",
+        "Sixes": "12",
+        "Fours": "49",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "5",
+        "Player": "Shubman Gill",
+        "Runs": "483",
+        "Sixes": "11",
+        "Fours": "51",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "6",
+        "Player": "David Miller",
+        "Runs": "481",
+        "Sixes": "23",
+        "Fours": "32",
+        "Fifties": "2",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "7",
+        "Player": "Faf Du Plessis",
+        "Runs": "468",
+        "Sixes": "13",
+        "Fours": "49",
+        "Fifties": "3",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "8",
+        "Player": "Shikhar Dhawan",
+        "Runs": "460",
+        "Sixes": "12",
+        "Fours": "47",
+        "Fifties": "3",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "9",
+        "Player": "Sanju Samson",
+        "Runs": "458",
+        "Sixes": "26",
+        "Fours": "43",
+        "Fifties": "2",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "10",
+        "Player": "Deepak Hooda",
+        "Runs": "451",
+        "Sixes": "18",
+        "Fours": "36",
+        "Fifties": "4",
+        "Hundreds": "0"
+      }
+    ]
+  },
+  "2023": {
+    "players": [
+      {
+        "POS": "1",
+        "Player": "Shubman Gill",
+        "Runs": "890",
+        "Sixes": "33",
+        "Fours": "85",
+        "Fifties": "4",
+        "Hundreds": "3"
+      },
+      {
+        "POS": "2",
+        "Player": "Faf Du Plessis",
+        "Runs": "730",
+        "Sixes": "36",
+        "Fours": "60",
+        "Fifties": "8",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "3",
+        "Player": "Devon Conway",
+        "Runs": "672",
+        "Sixes": "18",
+        "Fours": "77",
+        "Fifties": "6",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "4",
+        "Player": "Virat Kohli",
+        "Runs": "639",
+        "Sixes": "16",
+        "Fours": "65",
+        "Fifties": "6",
+        "Hundreds": "2"
+      },
+      {
+        "POS": "5",
+        "Player": "Yashasvi Jaiswal",
+        "Runs": "625",
+        "Sixes": "26",
+        "Fours": "82",
+        "Fifties": "5",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "6",
+        "Player": "Suryakumar Yadav",
+        "Runs": "605",
+        "Sixes": "28",
+        "Fours": "65",
+        "Fifties": "5",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "7",
+        "Player": "Ruturaj Gaikwad",
+        "Runs": "590",
+        "Sixes": "30",
+        "Fours": "46",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "8",
+        "Player": "David Warner",
+        "Runs": "516",
+        "Sixes": "10",
+        "Fours": "69",
+        "Fifties": "6",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "9",
+        "Player": "Rinku Singh",
+        "Runs": "474",
+        "Sixes": "29",
+        "Fours": "31",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "10",
+        "Player": "Ishan Kishan",
+        "Runs": "454",
+        "Sixes": "18",
+        "Fours": "54",
+        "Fifties": "3",
+        "Hundreds": "0"
+      }
+    ]
+  },
+  "2024": {
+    "players": [
+      {
+        "POS": "1",
+        "Player": "Virat Kohli",
+        "Runs": "741",
+        "Sixes": "38",
+        "Fours": "62",
+        "Fifties": "5",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "2",
+        "Player": "Ruturaj Gaikwad",
+        "Runs": "583",
+        "Sixes": "18",
+        "Fours": "58",
+        "Fifties": "4",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "3",
+        "Player": "Riyan Parag",
+        "Runs": "573",
+        "Sixes": "33",
+        "Fours": "40",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "4",
+        "Player": "Travis Head",
+        "Runs": "567",
+        "Sixes": "32",
+        "Fours": "64",
+        "Fifties": "4",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "5",
+        "Player": "Sanju Samson",
+        "Runs": "531",
+        "Sixes": "24",
+        "Fours": "48",
+        "Fifties": "5",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "6",
+        "Player": "Sai Sudharsan",
+        "Runs": "527",
+        "Sixes": "16",
+        "Fours": "48",
+        "Fifties": "2",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "7",
+        "Player": "K L Rahul",
+        "Runs": "520",
+        "Sixes": "19",
+        "Fours": "45",
+        "Fifties": "4",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "8",
+        "Player": "Nicholas Pooran",
+        "Runs": "499",
+        "Sixes": "36",
+        "Fours": "35",
+        "Fifties": "3",
+        "Hundreds": "0"
+      },
+      {
+        "POS": "9",
+        "Player": "Sunil Narine",
+        "Runs": "488",
+        "Sixes": "33",
+        "Fours": "50",
+        "Fifties": "3",
+        "Hundreds": "1"
+      },
+      {
+        "POS": "10",
+        "Player": "Abhishek Sharma",
+        "Runs": "484",
+        "Sixes": "42",
+        "Fours": "36",
+        "Fifties": "3",
+        "Hundreds": "0"
+      }
+    ]
+  }
+}
