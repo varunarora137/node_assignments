@@ -38,6 +38,8 @@ async function mostFourEvaluate(page) {
 
   statesFilterSelector = await page.$(".cSBList.active");
 
+  //$ gives one element while $$ gives an array of found elements
+
   const mostFoursFilterOption = await statesFilterSelector.$(
     ".cSBListItems.batters.selected.ng-binding.ng-scope:nth-child(3)"
   );
