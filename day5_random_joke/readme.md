@@ -21,7 +21,7 @@ This project is a Node.js application that serves a Random Jokes API.
 
 ### 1. **Get a Random Joke**
 
-- **Endpoint**: `/api/jokes/random`
+- **Endpoint**: `/api/joke/random-joke`
 - **Method**: GET
 - **Response**: A JSON object with a random joke.
 
@@ -33,7 +33,7 @@ This project is a Node.js application that serves a Random Jokes API.
 
 ### 2. **Get a Random Joke and Image**
 
-- **Endpoint**: `/api/jokes-images/random`
+- **Endpoint**: `/api/joke-image/random`
 - **Method**: GET
 - **Response**: A JSON object with both a random joke and a base64-encoded image.
 

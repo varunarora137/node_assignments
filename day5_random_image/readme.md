@@ -20,7 +20,7 @@ This project is a Node.js application that serves a Random Image API.
 
 ### 1. **Get a Random Image**
 
-- **Endpoint**: `/api/images/random`
+- **Endpoint**: `/api/image/random-image`
 - **Method**: GET
 - **Response**: A JSON object containing a base64-encoded string of a random image.
 
