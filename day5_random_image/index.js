@@ -6,6 +6,7 @@ dotenv.config({ path: "./config.env" });
 
 const app = express();
 const port = 4000;
+const host = "127.0.0.1";
 
 app.use(cors());
 app.use(express.json());
@@ -40,7 +41,6 @@ const getImage = async () => {
 app.get("/api/image/random-image", async (req, res) => {
   try {
     const image = await getImage();
-
     res.status(200).json({ image });
   } catch (err) {
     console.error("Error fetching image:", err);
@@ -50,4 +50,4 @@ app.get("/api/image/random-image", async (req, res) => {
   }
 });
 
-app.listen(port, () => console.log("Server Started"));
+app.listen(port, host, () => console.log("Server Started"));

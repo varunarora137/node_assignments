@@ -7,7 +7,7 @@ const getImage = async () => {
     image.style.display = "none";
     imageText.innerText = "Loading...";
     const fetchData = await fetch(
-      "https://node-assignments-mrib.onrender.com/api/image/random-image"
+      "http://127.0.01:4000/api/image/random-image"
     );
     const data = await fetchData.json();
     imageText.innerText = "";
