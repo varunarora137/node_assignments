@@ -6,7 +6,6 @@ dotenv.config({ path: "./config.env" });
 
 const app = express();
 const port = 4000;
-const host = "127.0.0.1";
 
 app.use(cors());
 app.use(express.json());
@@ -51,4 +50,4 @@ app.get("/api/image/random-image", async (req, res) => {
   }
 });
 
-app.listen(port, host, () => console.log("Server Started"));
+app.listen(port, () => console.log("Server Started"));
