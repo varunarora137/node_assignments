@@ -24,7 +24,7 @@ app.post("/userData", validator, (req, res) => {
     console.log("Email: " + req.body.Email);
     console.log("Password: " + req.body.Password);
     console.log("Phone Number: " + req.body.PhoneNumber);
-    res.status(200).send("Successful");
+    res.status(201).send("Information Received Successfully.");
   } catch (err) {
     console.log(err);
     res.status(500).send("Internal Server Error");

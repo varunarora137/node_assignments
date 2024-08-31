@@ -11,7 +11,7 @@ const validateName = (name) => {
 };
 
 const validateEmail = (email) => {
-  const match = /^[a-zA-Z0-9\.\_]+\@[a-zA-Z0-9]+\.[a-zA-Z]{2,5}$/;
+  const match = /^[a-zA-Z0-9\.\_]+\@[a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,5}$/;
   const lowerCaseEmail = email.toLowerCase();
   return match.test(lowerCaseEmail);
 };
