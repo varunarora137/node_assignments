@@ -29,7 +29,7 @@ export const shortURL = async (req, res) => {
       console.log("hello");
     }
     res.send({
-      link: `http://localhost:5000/api/url/${nanoID}`,
+      link: `https://node-assignments-1.onrender.com/api/url/${nanoID}`,
     });
   } catch (err) {
     console.log(err);

@@ -11,9 +11,12 @@ function App() {
   }, [url]);
   const handleSubmit = async () => {
     try {
-      let fetchedID = await axios.post("http://localhost:5000/api/url/", {
-        originalURL: url,
-      });
+      let fetchedID = await axios.post(
+        "https://node-assignments-1.onrender.com/api/url/",
+        {
+          originalURL: url,
+        }
+      );
       if (fetchedID.data.message) {
         throw new Error(fetchedID.data.message);
       }
