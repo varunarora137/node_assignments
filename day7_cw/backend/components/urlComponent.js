@@ -8,12 +8,19 @@ export const getShortUrl = async (req, res) => {
       { nanoID: id },
       { originalURL: 1, _id: 0 }
     );
+
+    if (getURL.length === 0) {
+      return res.status(404).send("URL not found");
+    }
     console.log(getURL);
+    console.log(getURL[0].originalURL);
     res.redirect(getURL[0].originalURL);
   } catch (err) {
     console.log(err);
+    res.status(500).send("Server error");
   }
 };
+
 export const shortURL = async (req, res) => {
   try {
     const { originalURL } = req.body;
