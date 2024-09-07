@@ -2,7 +2,7 @@ import validator from "validator";
 
 const options = {
   protocols: ["http", "https", "ftp"],
-  require_protocol: false,
+  require_protocol: true,
   require_host: true,
   require_port: false,
   require_valid_protocol: true,
