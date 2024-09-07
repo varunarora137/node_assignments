@@ -8,6 +8,7 @@ export const getShortUrl = async (req, res) => {
       { nanoID: id },
       { originalURL: 1, _id: 0 }
     );
+    console.log(getURL);
     res.redirect(getURL[0].originalURL);
   } catch (err) {
     console.log(err);
