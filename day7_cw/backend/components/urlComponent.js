@@ -34,7 +34,7 @@ export const shortURL = async (req, res) => {
         originalURL,
         nanoID,
       });
-      console.log("hello");
+      console.log("hello Server");
     }
     res.send({
       link: `https://node-assignments-1.onrender.com/api/url/${nanoID}`,
