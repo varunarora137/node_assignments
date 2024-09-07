@@ -12,7 +12,7 @@ const options = {
 };
 export const urlValidator = (req, res, next) => {
   const { originalURL } = req.body;
-  if (validator.isURL(originalURL)) {
+  if (validator.isURL(originalURL, options)) {
     next();
   } else {
     res.json({ message: "Invalid URL" });
