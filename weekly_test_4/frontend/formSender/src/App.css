@@ -1,0 +1,49 @@
+form {
+  background-color: #e9efec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  border: 3px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+input,
+select {
+  width: 90%;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+h1 {
+  margin-bottom: 20px;
+  color: #16423c;
+  font-size: 40px;
+}
+select,
+option {
+  cursor: pointer;
+}
+
+input[type="submit"] {
+  background-color: #16423c;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+  transition: 0.1s linear;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+
+input[type="submit"]:active {
+  transform: scale(0.9);
+}
