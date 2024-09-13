@@ -30,4 +30,6 @@ export const postUserData = async (req, res) => {
   });
 };
 
-export const getUserData = async (req, res) => {};
+export const getUserData = async (req, res) => {
+  res.send("Succesful Connection Established");
+};
