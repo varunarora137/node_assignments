@@ -64,7 +64,10 @@ function App() {
         }
       );
       console.log(response.data);
-      setName("");
+      if (response.data === "Not Deliverable") {
+        toast.error("Email Not Deliverable, Check Your Email ID", options);
+        return;
+      }
       setEmail("");
       setPassword("");
       setGender("");
