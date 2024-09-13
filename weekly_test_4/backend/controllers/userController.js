@@ -15,15 +15,20 @@ export const postUserData = async (req, res) => {
   kb.verify(email, async function (err, response) {
     console.log(response);
     if (response.body.result === "deliverable") {
-      const hashedPassword = await bcrypt.hash(password, 10);
-      const data = await user.create({
-        name,
-        email,
-        gender,
-        password: hashedPassword,
-      });
-      sendEmail(data);
-      res.send("Response Sent");
+      try {
+        const hashedPassword = await bcrypt.hash(password, 10);
+        const data = await user.create({
+          name,
+          email,
+          gender,
+          password: hashedPassword,
+        });
+        sendEmail(data);
+        res.send("Response Sent");
+      } catch (err) {
+        console.log(err);
+        res.send("Not Deliverable");
+      }
     } else {
       res.send("Not Deliverable");
     }
